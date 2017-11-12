@@ -6,5 +6,9 @@
   "development": {
     "MONGODB_URI": "mongodb://localhost:27017/LandofGratitude",
     "JWT_SECRET": "ncKJG#(GJcmJFJ#u910PP"
+  },
+  "prod": {
+    "MONGODB_URI": "mongodb://justin:secret@ds147421.mlab.com:47421/landofgratitude",
+    "JWT_SECRET": "djfkji#(*%Y*!@HIJHFx8924"
   }
 }

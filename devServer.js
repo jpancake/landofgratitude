@@ -17,7 +17,7 @@ const User = mongoose.model('User')
 require('./server/db/mongoose')
 require('./server/config')
 
-const PORT = 3050
+const PORT = process.env.PORT || 3050
 
 const server = new WebpackDevServer(webpack(config), {
 	port: PORT,
