@@ -1,0 +1,10 @@
+{
+  "test": {
+    "MONGODB_URI": "mongodb://localhost:27017/LandofGratitudeTest",
+    "JWT_SECRET": "DK@#($*dj21lxnvnm@#*@(#"
+  },
+  "development": {
+    "MONGODB_URI": "mongodb://localhost:27017/LandofGratitude",
+    "JWT_SECRET": "ncKJG#(GJcmJFJ#u910PP"
+  }
+}
